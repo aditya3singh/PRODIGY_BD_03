@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center h-screen bg-gray-100">
+    <div class="w-full max-w-lg bg-white shadow-md rounded-lg p-6 text-center">
+        <h2 class="text-3xl font-semibold">Welcome, <%= user.username %>!</h2>
+        <p class="text-gray-600 mt-2">Your email: <strong><%= user.email %></strong></p>
+        <p class="text-gray-600 mt-2">Role: <span class="font-bold text-blue-500"><%= user.role %></span></p>
+        <a href="/auth/logout" class="mt-4 inline-block bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">Logout</a>
+    </div>
+</body>
+</html>
