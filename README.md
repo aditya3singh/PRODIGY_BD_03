@@ -62,4 +62,46 @@ A secure Node.js authentication system with MongoDB Atlas integration, featuring
 - **GET /auth/profile** - Get user profile (Protected route)
 - **GET /auth/logout** - Logout user
 
-## �� Project Structure
+## 📁 Project Structure
+
+```
+├── models/
+│   └── User.js
+├── routes/
+│   └── auth.js
+├── views/
+│   ├── login.ejs
+│   ├── register.ejs
+│   └── profile.ejs
+├── .env
+├── .gitignore
+├── server.js
+└── README.md
+```
+
+## 🔒 Security Features
+
+- Password hashing using bcrypt
+- JWT for secure authentication
+- HTTP-only cookies
+- Input validation
+- MongoDB Atlas security features
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/aditya3singh/PRODIGY_BD_03/issues).
+
+## 👤 Author
+
+**Aditya Singh**
+- GitHub: [@aditya3singh](https://github.com/aditya3singh)
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+
+## 🙏 Acknowledgments
+
+- MongoDB Atlas Documentation
+- Node.js Community
+- Express.js Documentation
